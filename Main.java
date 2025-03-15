@@ -6,13 +6,13 @@
     TP: Ej1_Programar
 
     Alumnos:
-    • Giovanni Carrá
-    • Mariano Dambolena
-    • Joaquín Suárez Vallejos
-    • Lucas López de Calle
-    • Federico Petta
-    • Carlos Stoffel
-    • Tobías Díaz Cuellar
+    1. Giovanni Carrá
+    2. Mariano Dambolena
+    3. Joaquín Suárez Vallejos
+    4. Lucas López de Calle
+    5. Federico Petta
+    6. Carlos Stoffel
+    7. Tobías Díaz Cuellar
 */
 
 import tp_01.Partes.Ala;
