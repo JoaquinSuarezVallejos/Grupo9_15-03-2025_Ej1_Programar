@@ -17,7 +17,7 @@ public class Main {
     Ala[] listAla = {alaIzquierda,alaDerecha};
 
 
-    //MOTRO DEL AVION
+    //MOTOR DEL AVION
     MotorDeAvion motor = new MotorDeAvion("Boeing",1000, 2500);
 
     //SISTEMA DE CONTROL DE VUELO DEL AVION
