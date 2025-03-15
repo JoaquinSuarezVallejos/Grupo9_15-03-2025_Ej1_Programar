@@ -1,5 +1,4 @@
 package Partes;
-
 public class Ala {
    private double envergadura;
    private String color;
@@ -10,6 +9,16 @@ public class Ala {
         this.envergadura = envergadura;
         this.color = color;
         this.tipoMaterial = tipoMaterial;
+    }
+
+    @Override
+    public String toString() {
+        return "Ala{" +
+                "envergadura=" + envergadura +
+                ", color='" + color + '\'' +
+                ", tipoMaterial='" + tipoMaterial + '\'' +
+                ", flap=" + flap +
+                '}';
     }
 
     public int cambiarFlap (boolean subir){
@@ -36,4 +45,3 @@ public class Ala {
         return tipoMaterial;
     }
 }
- 

@@ -1,5 +1,4 @@
-package tp_01.Partes;
-
+package Partes;
 public class MotorDeAvion {
     private String marca;
     private int hp;
@@ -24,6 +23,16 @@ public class MotorDeAvion {
         return marca;
     }
 
+    @Override
+    public String toString() {
+        return "MotorDeAvion{" +
+                "marca='" + marca + '\'' +
+                ", hp=" + hp +
+                ", empuje=" + empuje +
+                ", encender=" + encender +
+                '}';
+    }
+
     public int getHp() {
         return hp;
     }
@@ -31,4 +40,5 @@ public class MotorDeAvion {
     public double getEmpuje() {
         return empuje;
     }
+
 }
